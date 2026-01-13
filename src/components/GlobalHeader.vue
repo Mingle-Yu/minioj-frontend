@@ -98,7 +98,7 @@ const doMenuClick = (key: string) => {
   router.push({
     path: key,
   });
-  selectedKeys.value = key;
+  selectedKeys.value = [key];
 };
 
 setTimeout(() => {
